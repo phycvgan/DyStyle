@@ -34,10 +34,7 @@ Great diversity and photorealism have been achieved by unconditional GAN framewo
 1. examples when editing both yaw and glass on real face.
 
 <figure>
-<img src='pics/L1.gif' width=100 height=100/>
-<img src='pics/L2.gif' width=100 height=100/>
-<img src='pics/L3.gif' width=100 height=100/>
-<img src='pics/L4.gif' width=100 height=100/>
+<img src='pics/L1.gif' width=100 height=100/><img src='pics/L2.gif' width=100 height=100/><img src='pics/L3.gif' width=100 height=100/><img src='pics/L4.gif' width=100 height=100/>
 </figure>
 
 ## Installation

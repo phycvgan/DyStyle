@@ -11,3 +11,8 @@ Our code requires pretrained attribute classifiers. Please refer our pytorch imp
 If necessary, you can customize your own attribute classifier file just following the interface. 
 
 ## 3. Preparing DyStyle Model Config
+
+The DyStyle model config file "*.yaml" consists of two parts, i.e., "ATTR" and "LOSS". 
+In which, the "ATTR" configs each attribute to be edited while the "LOSS" configs the objective function or attribute classifier. 
+
+Please refer our proposed examples in "configs/adult.yaml" for better understanding. 
