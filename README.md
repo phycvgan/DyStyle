@@ -13,21 +13,21 @@ Great diversity and photorealism have been achieved by unconditional GAN framewo
 
 1. examples when editing smile, pitch, yaw and glass on real face
 
-<figure>
+<p>
 <img src='pics/S1.gif' width=100 height=100/><img src='pics/S2.gif' width=100 height=100/><img src='pics/S3.gif' width=100 height=100/><img src='pics/S4.gif' width=100 height=100/>
-</figure>
+</p>
 2. examples when editing age, hair color, yaw and glasses on real face
-<figure>
+<p>
 <img src='pics/S5.gif' width=100 height=100/><img src='pics/S6.gif' width=100 height=100/><img src='pics/S7.gif' width=100 height=100/><img src='pics/S8.gif' width=100 height=100/>
-</figure>
+</p>
 3. examples when editing pupil color, hair color, mouth size and hair length on anime face. 
-<figure>
+<p>
 <img src='pics/S9.gif' width=100 height=100/><img src='pics/S10.gif' width=100 height=100/><img src='pics/S11.gif' width=100 height=100/><img src='pics/S12.gif' width=100 height=100/>
-</figure>
+</p>
 4. examples when editing facial expressions on real face. 
-<figure>
+<p>
 <img src='pics/13.gif' width=100 height=100/><img src='pics/14.gif' width=100 height=100/><img src='pics/15.gif' width=100 height=100/><img src='pics/16.gif' width=100 height=100/>
-</figure>
+</p>
 
 ### Multiple Attribute Edits
 
