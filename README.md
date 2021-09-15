@@ -2,17 +2,7 @@
 
 <img src='pics/sequential.png' width=750/>
 
-**Figure**: Sequential edits using DyStyle model.
-
-<p>
-<img src='pics/real/A1.gif' width=150 /><img src='pics/real/A4.gif' width=150 /><img src='pics/real/A3.gif' width=150 /><img src='pics/real/A2.gif' width=150 /><img src='pics/real/A5.gif' width=150 />
-
-<img src='pics/real/B1.gif' width=150 /><img src='pics/real/B4.gif' width=150 /><img src='pics/real/B3.gif' width=150 /><img src='pics/real/B2.gif' width=150 /><img src='pics/real/B5.gif' width=150 />
-
-<img src='pics/real/R1.gif' width=150 /><img src='pics/real/R4.gif' width=150 /><img src='pics/real/R3.gif' width=150 /><img src='pics/real/R2.gif' width=150 /><img src='pics/real/R5.gif' width=150 />
-</p>
-
-**Figure**: Real face edits using DyStyle model. 
+**Figure**: Joint multi-attribute edits using DyStyle model.
 
 Great diversity and photorealism have been achieved by unconditional GAN frameworks such as StyleGAN and its variations. In the meantime, persistent efforts have been made to enhance the semantic controllability of StyleGANs. For example, a dozen of style manipulation methods have been recently proposed to perform attribute-conditioned style editing. Although some of these methods work well in manipulating the style codes along one attribute, the control accuracy when jointly manipulating multiple attributes tends to be problematic. To address these limitations, we propose a Dynamic Style Manipulation Network (DyStyle) whose structure and parameters vary by input samples, to perform nonlinear and adaptive manipulation of latent codes for flexible and precise attribute control. Additionally, a novel easy-to-hard training procedure is introduced for efficient and stable training of the DyStyle network. Extensive experiments have been conducted on faces and other objects. As a result, our approach demonstrates fine-grained disentangled edits along multiple numeric and binary attributes. Qualitative and quantitative comparisons with existing style manipulation methods verify the superiority of our method in terms of the attribute control accuracy and identity preservation without compromising the photorealism. The advantage of our method is even more significant for joint multi-attribute control.
 
@@ -53,6 +43,18 @@ images after editing
 <img src='pics/L1.gif' width=200 /><img src='pics/L2.gif' width=200 /><img src='pics/L3.gif' width=200 /><img src='pics/L4.gif' width=200 />
 </p>
 
+Real photo editing reconstructed with [[pSp](https://github.com/eladrich/pixel2style2pixel)]. 
+
+<p>
+<img src='pics/real/R1.gif' width=150 /><img src='pics/real/R4.gif' width=150 /><img src='pics/real/R3.gif' width=150 /><img src='pics/real/R2.gif' width=150 /><img src='pics/real/R5.gif' width=150 />
+
+
+<img src='pics/real/A1.gif' width=150 /><img src='pics/real/A4.gif' width=150 /><img src='pics/real/A3.gif' width=150 /><img src='pics/real/A2.gif' width=150 /><img src='pics/real/A5.gif' width=150 />
+
+<img src='pics/real/B1.gif' width=150 /><img src='pics/real/B4.gif' width=150 /><img src='pics/real/B3.gif' width=150 /><img src='pics/real/B2.gif' width=150 /><img src='pics/real/B5.gif' width=150 />
+</p>
+
+
 ## Installation
 
 1. Clone this repo.
@@ -90,7 +92,8 @@ sh run_train_dog.sh [device_id]
 
 ## License
 
-To be updated.
+©ByteDance, 2021. For academic and non-commercial use only.
+
 
 ## Citation
 
