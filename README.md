@@ -43,7 +43,7 @@ images after editing
 <img src='pics/L1.gif' width=200 /><img src='pics/L2.gif' width=200 /><img src='pics/L3.gif' width=200 /><img src='pics/L4.gif' width=200 />
 </p>
 
-Real photo editing reconstructed with [pSp](https://github.com/eladrich/pixel2style2pixel). 
+Real photo editing reconstructed with [pSp](https://github.com/eladrich/pixel2style2pixel) and edited with DyStyle. 
 
 <p>
 <img src='pics/real/R1.gif' width=150 /><img src='pics/real/R4.gif' width=150 /><img src='pics/real/R3.gif' width=150 /><img src='pics/real/R2.gif' width=150 /><img src='pics/real/R5.gif' width=150 />
